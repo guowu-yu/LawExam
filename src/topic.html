@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{TITLE}} · 明律知境</title>
+    <meta name="description" content="{{SUMMARY}}" />
+    <meta name="author" content="2027 备考生" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600&family=Noto+Serif+SC:wght@500;600;700&family=Orbitron:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/main.css?v=20261024" />
+  </head>
+  <body class="page-topic">
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="../index.html">
+        <span class="brand-mark">明律</span>
+        <span class="brand-text">
+          <strong>明律知境</strong>
+          <em>Law Garden</em>
+        </span>
+      </a>
+      <nav class="nav">
+        <a href="../index.html#topics">专题</a>
+        <a href="../index.html#about">关于</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="topic-hero">
+        {{COVER_BLOCK}}
+        <div class="topic-hero-veil"></div>
+        <div class="topic-hero-content">
+          <a class="back-link" href="../index.html#topics">← 返回专题星图</a>
+          <div class="card-meta">
+            <time datetime="{{DATE}}">{{DATE}}</time>
+            <div class="tags">{{TAGS}}</div>
+          </div>
+          <h1>{{TITLE}}</h1>
+          <p class="topic-summary">{{SUMMARY}}</p>
+          <p class="topic-byline">作者 · 2027 备考生</p>
+        </div>
+      </section>
+
+      <article class="prose topic-article">
+        {{CONTENT}}
+      </article>
+
+      {{SUBTOPICS}}
+
+      {{RELATED}}
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> 明律知境 · 2027 备考生</p>
+      <p class="muted">法考备考笔记与整理 · 托管于 GitHub Pages</p>
+    </footer>
+
+    {{LAW_ROADMAP_FLOAT}}
+
+    <script src="../assets/js/main.js?v=20261024" type="module"></script>
+  </body>
+</html>
