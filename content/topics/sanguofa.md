@@ -263,3 +263,11 @@ cover:
 - [ ] 信用证独立原则、严格相符、欺诈例外
 - [ ] WTO 最惠国与国民待遇及例外
 - [ ] 知识产权国际公约、MIGA 与 ICSID
+## 相关权威链接
+
+> 备考提示：以下为权威官方发布渠道，建议结合最新修正案与司法解释一并研读。
+
+- 中华人民共和国最高人民法院（官网）：https://www.court.gov.cn/
+- 《涉外民事关系法律适用法》全文（中国人大网）：http://www.npc.gov.cn/cwhhdbdh/c4186/c14354/c14359/201905/t20190523_400431.html
+- 《联合国国际货物销售合同公约》全文（联合国）：https://www.un.org/zh/documents/treaty/UNCITRAL-1980
+- 《维也纳外交关系公约》全文（外交部）：https://www.mfa.gov.cn/web/wjb_673085/zfxxgk_674865/gknrlb/tywj/tyqk/200404/t20040408_7949263.shtml
