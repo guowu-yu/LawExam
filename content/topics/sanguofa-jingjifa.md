@@ -82,5 +82,5 @@ cover:
 
 > 备考提示：以下为权威官方发布渠道，建议结合最新修正案与司法解释一并研读。
 
-- 中华人民共和国最高人民法院（官网）：https://www.court.gov.cn/
-- 《联合国国际货物销售合同公约》全文（联合国）：https://www.un.org/zh/documents/treaty/UNCITRAL-1980
+- [中华人民共和国最高人民法院（官网）](https://www.court.gov.cn/)
+- [《联合国国际货物销售合同公约》全文（联合国）](https://www.un.org/zh/documents/treaty/UNCITRAL-1980)

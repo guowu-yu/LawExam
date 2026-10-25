@@ -80,5 +80,5 @@ cover:
 
 > 备考提示：以下为权威官方发布渠道，建议结合最新修正案与司法解释一并研读。
 
-- 中华人民共和国最高人民法院（官网）：https://www.court.gov.cn/
-- 《维也纳外交关系公约》全文（外交部）：https://www.mfa.gov.cn/web/wjb_673085/zfxxgk_674865/gknrlb/tywj/tyqk/200404/t20040408_7949263.shtml
+- [中华人民共和国最高人民法院（官网）](https://www.court.gov.cn/)
+- [《维也纳外交关系公约》全文（外交部）](https://www.mfa.gov.cn/web/wjb_673085/zfxxgk_674865/gknrlb/tywj/tyqk/200404/t20040408_7949263.shtml)

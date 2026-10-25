@@ -79,5 +79,5 @@ cover:
 
 > 备考提示：以下为权威官方发布渠道，建议结合最新修正案与司法解释一并研读。
 
-- 中华人民共和国最高人民法院（官网）：https://www.court.gov.cn/
-- 《刑事诉讼法》全文（中国政府网）：https://www.spp.gov.cn/zdgz/201810/t20181027_396818.shtml
+- [中华人民共和国最高人民法院（官网）](https://www.court.gov.cn/)
+- [《刑事诉讼法》全文（中国政府网）](https://www.spp.gov.cn/zdgz/201810/t20181027_396818.shtml)

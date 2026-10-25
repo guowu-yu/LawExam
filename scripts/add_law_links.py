@@ -134,12 +134,12 @@ def build_block(laws):
         "",
         "> 备考提示：以下为权威官方发布渠道，建议结合最新修正案与司法解释一并研读。",
         "",
-        "- 中华人民共和国最高人民法院（官网）：" + SUPREME_COURT,
+        "- [中华人民共和国最高人民法院（官网）]({})".format(SUPREME_COURT),
     ]
     for law in laws:
         url = LAW_URLS[law]
         src = source_of(url)
-        lines.append("- 《{}》全文（{}）：{}".format(law, src, url))
+        lines.append("- [《{}》全文（{}）]({})".format(law, src, url))
     lines.append("")
     return "\n".join(lines)
 
@@ -155,9 +155,9 @@ def main():
         path = os.path.join(topics_dir, fn)
         with open(path, "r", encoding="utf-8") as fh:
             content = fh.read()
+        # 若已存在链接区块，则截断到该区块之前，便于用新格式覆盖重建
         if "## 相关权威链接" in content:
-            skipped += 1
-            continue
+            content = content.split("## 相关权威链接", 1)[0].rstrip() + "\n"
         if slug not in MAPPING:
             print("  [未映射，跳过] {}".format(fn))
             missing += 1
@@ -175,9 +175,9 @@ def main():
         with open(path, "w", encoding="utf-8") as fh:
             fh.write(content)
         updated += 1
-        print("  [已追加] {}  (+{} 法律链接)".format(fn, len(laws)))
-    print("\n完成：更新 {} 个，跳过(已存在) {} 个，未映射 {} 个，共扫描 {} 个文件。".format(
-        updated, skipped, missing, len(files)))
+        print("  [已处理] {}  (+{} 法律链接)".format(fn, len(laws)))
+    print("\n完成：处理 {} 个，未映射 {} 个，共扫描 {} 个文件。".format(
+        updated, missing, len(files)))
 
 
 if __name__ == "__main__":
