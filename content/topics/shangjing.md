@@ -251,7 +251,7 @@ cover:
 - [公司法](shangjing-gongsi.html)
 - [合伙企业与破产](shangjing-hehuo.html)
 - [证券法](shangjing-zhengquan.html)
-- [企业法](shangjing-qiye.html)
+- [经济法](shangjing-qiye.html)：反垄断、反不正当竞争、消费者权益、产品质量
 - [劳动法](shangjing-laodong.html)
 - [环境法](shangjing-huanjing.html)
 
